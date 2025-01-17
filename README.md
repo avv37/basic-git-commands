@@ -1,0 +1,28 @@
+# basic-git-commands
+Repository for basic git commands.  
+<br>
+## git init
+Инициализация пустого репозитория (в текущей папке)
+----
+## git status
+Команда git status показывает состояния файлов в рабочем каталоге и индексе<br>
+git status
+----
+## git add
+Команда git add добавляет содержимое рабочего каталога в индекс (staging area) для последующего коммита.<br>
+git add filename<br>
+git add --all
+----
+## git commit
+Команда git commit берёт все данные, добавленные в индекс с помощью git add, и сохраняет их слепок во внутренней базе данных, а затем сдвигает указатель текущей ветки на этот слепок.<br>
+git commit -m "comment about changes"
+----
+## git log
+Просмотр истории коммитов<br>
+git log<br>
+git log -1  
+----
+## git push
+Отправка изменений в удалённый репозиторий<br>
+git push -u origin master // в первый раз, -u для связи локальной ветки с одноимённой удалённой.<br>
+git push
