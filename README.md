@@ -34,8 +34,9 @@ git commit -m "comment about changes"
 
 - Просмотр истории коммитов<br>
 ```
-git log
-git log -1  
+git log  // вывести список коммитов (выход - Q)
+git log -1   // посмотреть последний коммит (N последних коммитов)
+git log –oneline - одной строкой (с сокращенным хешем)
 ```
 
 ## git push
@@ -51,4 +52,5 @@ git push
 ```
 commit 845ecbcce04d6cb5737b2e20ef997abc67e8803f
 ```
+
 
